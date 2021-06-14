@@ -15,14 +15,11 @@ class Config():
         self.showdata = False 
         self.showTrainingOutput = True
         
-        self.useInstanceNorm = False # Instance Normalization
-        self.useBatchNorm = True # Only use one of either instance or batch norm
+        self.useInstanceNorm = False 
+        self.useBatchNorm = True 
         self.useDropout = True
-        self.drop = 0.2 #try value between 0.2 and 0.4 
-
-        # Each item in the following list specifies a module.
-        # Each item is the number of input channels to the module.
-        # The number of output channels is 2x in the encoder, x/2 in the decoder.
+        self.drop = 0.2
+        
         self.encoderLayerSizes = [64, 128, 256, 512]
         self.decoderLayerSizes = [1024, 512, 256]
 
