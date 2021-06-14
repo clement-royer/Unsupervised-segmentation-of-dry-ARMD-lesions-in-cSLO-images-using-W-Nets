@@ -4,4 +4,4 @@
 
 W-net adaptation to automatic segmentation of dry ARMD lesion in cSLO IR images.
 
-The code is based on this repository : https://github.com/gr-b/W-Net-Pytorch 
+The code is based on this repository : https://github.com/gr-b/W-Net-Pytorch and https://github.com/lefaivre/textureSegmentation
